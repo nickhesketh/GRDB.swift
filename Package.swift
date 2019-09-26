@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "GRDB", targets: ["GRDB"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/groue/CSQLite.git", from: "0.2.0"),
+        .package(url: "https://github.com/nickhesketh/CSQLite.git", from: "0.2.0"),
     ],
     targets: [
         .target(name: "GRDB", path: "GRDB"),
